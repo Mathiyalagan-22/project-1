@@ -1,0 +1,66 @@
+.container{
+    background-color: whitesmoke;
+    height: 670px;
+    
+}
+button{
+    color: white;
+    background-color: blue;
+    
+}
+.child-1{
+    display: flex;
+}
+.child-2{
+    display: flex;
+}
+.heading{
+    padding-left: 150px;
+    padding-top: 100px;
+    font-size: 30px;
+    
+}
+h2{
+    font-size: 40px;
+}
+.para{
+    padding-left: 150px;
+    padding-top: 3px;
+    font-size: larger;
+}
+i{
+    color: blue;
+}
+.button{
+
+    font-size: 17px;
+    width: 100px;
+    margin-left: 150px;
+    
+    
+}
+.image{
+    padding-left: 500px;
+    margin-top: 100px;
+    margin-right: 100px;
+    
+}
+.image img{
+    width: 300px;
+}
+.img-1{
+    padding-left: 200px;
+    padding-top: 70px;
+}
+.img-2{
+    padding-left: 250px;
+    padding-top: 70px;
+}
+.img-3{
+    padding-left: 300px;
+    padding-top: 70px;
+}
+.img-4{
+    padding-left: 300px;
+    padding-top: 70px;
+}

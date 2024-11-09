@@ -1,0 +1,26 @@
+.head{
+    color: brown;
+}
+.head{
+    font-family: "Londrina Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+form{
+    border: 1px solid black;
+}
+input{
+    border: none;
+}
+div{
+    border: 1px solid black;
+    width: 200px;
+}
+div{
+    border: 1px solid black;
+    width: 200px;
+}
+.container{
+    padding-left: 500px;
+}

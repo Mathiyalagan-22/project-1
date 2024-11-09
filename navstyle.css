@@ -1,0 +1,17 @@
+.nav-bar{
+    display: flex;
+    list-style: none;
+    background-color: beige;
+}
+.nav-bar li{
+    padding: 30px;
+}
+.nav-abt{
+    display: none;
+}
+.nav-ser ul{
+    display: none;
+    
+} 
+
+

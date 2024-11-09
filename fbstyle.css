@@ -1,0 +1,41 @@
+
+
+.container{
+    padding-left: 600px;
+    padding-top: 50px;
+}
+.login{
+    border: 1px solid black;
+    width: 300px;
+    padding: 0px 50px;
+    margin-right: 200px;
+
+}
+input{
+    padding: 15px;
+    width: 250px;
+}
+h4,p{
+    text-align: center;
+}
+.forget{
+    font : blue;
+}
+.login-bt{
+    margin-top: 20px;
+}
+a{
+    margin-top: 20px;
+    padding: 10px 112px;
+    text-decoration: none;
+    background-color: blue;
+    font-size: 25px;
+    color: white;
+}
+p{
+  color: skyblue;
+}
+.container{
+    background-color: rgb(236, 241, 245);
+    padding-bottom: 20px;
+}
