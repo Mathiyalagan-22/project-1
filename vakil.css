@@ -1,0 +1,40 @@
+.container h1{
+    text-align: center;
+    color: darkblue;
+    
+}
+.child-1 img{
+       width: 100%;
+       
+}
+
+.child{
+    display: flex;
+    justify-content: center;
+
+}
+
+.icon{
+    margin-bottom: 10px;
+    border: 1px solid rgba(205, 200, 200, 0.266);
+    display: flex;
+    padding: 20px;
+    background-color: hwb(210 98% 0%);
+    opacity: 0.4;
+    
+}
+.icon:hover{
+    opacity: 1.0;
+}
+.icon img{
+    width: 100px;
+}
+.arrow{
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+.arrow img{
+    width: 30px;
+}

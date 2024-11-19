@@ -2,6 +2,7 @@
     display: flex;
     list-style: none;
     background-color: beige;
+    position: relative;
 }
 .nav-bar li{
     padding: 30px;
@@ -9,9 +10,13 @@
 .nav-abt{
     display: none;
 }
-.nav-ser ul{
+.child-ser {
     display: none;
     
 } 
+.nav-ser:hover .child-ser{
+    display: block;
+    position: absolute;
+}
 
 
