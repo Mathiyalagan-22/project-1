@@ -1,0 +1,303 @@
+*{
+    margin: 0%;
+}
+.nav-bar{
+     display: flex;
+     list-style: none;
+     background-color: bisque;
+     position: relative;
+}
+     @media(max-width: 768px) {
+        .nav-head {
+          width: 100%;
+          display: block;
+          .nav-bar li{
+            display: none;
+          }
+          
+        }
+}
+.nav-bar li{
+    padding:20px 30px;
+    
+}
+.child-practice{
+    display: none;
+
+}
+.heading{
+    font-size: larger;
+}
+.practice:hover .child-practice{
+    display: block;
+    position: absolute;
+    background-color:white ;
+    list-style: none;
+}
+.container{
+    display: flex;
+    background-image: url(hero_bg_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.container p{
+    color: white;
+    font-size: larger;
+    font-family: cursive;   
+}
+@media(max-width: 768px) {
+    .container {
+      width: 100%;
+      display: block;
+      height: 50vh;
+      align-self: center;
+    }
+}
+.parent{
+    border: 1px solid black;
+    width: 350px;
+    background-color: white;
+    height: 250px;
+    justify-items: center; 
+}
+@media(max-width: 768px) {
+    .container {
+      width: 100%;
+      display: block;
+    }
+    
+}
+.parent input{ 
+    width: 170px; 
+    gap: 30px;
+    
+}
+.button{
+     border: 1px solid black;
+     width: 175px;
+     height: 30px;
+     background-color: bisque; 
+     justify-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media only screen and (max-width: 768px) {
+    .container-2 {
+      width: 100%;
+      display: block;
+    }
+}
+.head{
+    text-align: center;
+}
+@media(max-width: 768px){
+    .head p{
+        font-size: larger;
+    }
+}
+.icon-1{
+    border: 1px solid rgb(248, 231, 231);
+    width: 300px;
+    height: 100px;
+    justify-content: center;   
+}
+@media only screen and (max-width: 768px) {
+    .icon-1 {
+      width: 100%;
+      display: block;
+    }
+}
+.icon-2{
+    border: 1px solid rgb(248, 231, 231);
+    width: 300px;
+    justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+    .icon-2 {
+      width: 100%;
+      display: block;
+    }
+}
+.icon-3{
+    border: 1px solid rgb(248, 231, 231);
+    width: 300px;
+    justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+    .icon-3 {
+      width: 100%;
+      display: block;
+    }
+}
+.icon-4{
+    border: 1px solid rgb(248, 231, 231);
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+    .icon-4 {
+      width: 100%;
+      display: block;
+    }
+}
+.icon-5{
+    border: 1px solid rgb(248, 231, 231);
+    width: 300px;
+}
+@media only screen and (max-width: 768px) {
+    .icon-5 {
+      width: 100%;
+      display: block;
+    }
+}
+.icon-6{
+    border: 1px solid rgb(248, 231, 231);
+    width: 300px;
+}
+@media(max-width: 768px) {
+    .icon-6 {
+      width: 100%;
+      display: block;
+    }
+}
+.classifier-1{
+    display: flex;
+    gap: 50px;
+}
+@media only screen and (max-width: 768px) {
+    .classifier-1 {
+      width: 100%;
+      display: grid;
+      
+      
+    }
+    .classifier-1 p{
+        font-size: larger;
+    }
+}
+.classifier-2{
+    display: flex;
+    gap: 50px;
+}
+@media only screen and (max-width: 768px) {
+    .classifier-2 {
+      width: 100%;
+      display: grid;
+      
+    }
+    .classifier-2 p{
+        font-size: larger;
+    }
+}
+.container-3{
+    border: 1px solid whitesmoke;
+    background-color: aliceblue;
+    display: flex;
+    gap: 50px;
+    /* padding-left: 200px; */
+    /* padding-top: 200px; */
+    /* padding-bottom: 100px; */
+    justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+    .container-3{
+      width: 100%;
+      display: grid;
+     justify-items: center;
+    }
+    .container-3 img{
+        height: 50vh;
+    }
+    .container-3 p{
+        font-size: larger;
+        margin: 20px;
+    }
+    .container-3 button{
+        margin: 50px;
+        font-size: large;
+    }
+}
+.container-3 img{
+    width: 300px;
+    
+}
+.container-3 button{
+    width: 300px;
+    height: 40px;
+    justify-items: center;
+}
+h2{
+    text-align: center;
+}
+.container-4{
+    border: 1px solid gainsboro;
+    background-color: rgb(247, 239, 239);
+}
+@media only screen and (max-width: 768px) {
+    .container-4{
+      width: 100%;
+      display: grid;
+     justify-items: center;
+    }
+    .child-4{
+        display: grid;
+        align-content: center;
+    }
+    .container-4 p{
+        font-size: larger;
+    }
+}
+.container-4 img{
+    width: 50px; 
+}
+.image{
+    border: 1px solid white;
+    background-color: white;
+    
+}
+.child-4{
+    display: flex;
+    gap: 50px;
+    justify-items: center;
+}
+.check p{
+    display: flex;
+}
+.input{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    
+}
+.input input{
+    width: 292px;
+}
+.input p{
+    background-color: gainsboro;
+}
+.container-5{
+    display: flex;
+    gap: 100px;
+}
+@media only screen and (max-width: 768px) {
+    .container-5{
+      width: 100%;
+      display: grid;
+     justify-items: center;
+    }
+    .container-5 h3{
+        font-size: larger;
+        text-align: center;
+    }
+    .container-5 p{
+        font-size: larger;
+    }
+}
